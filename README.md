@@ -10,6 +10,12 @@ This is the **same spec** that powers:
 
 ---
 
+## About TicketWave
+
+Part of [TicketWave HQ](https://github.com/TicketWaveHQ) ([ticketwavehq.com](https://ticketwavehq.com)), white-label commerce for events, food and bookings.
+
+---
+
 ## What it is
 
 A single [`openapi.yaml`](./openapi.yaml) describing two API namespaces:
@@ -31,6 +37,8 @@ All requests use bearer tokens of the form `tw_live_xxxxxxxxxxxxxxxx`, issued at
 ---
 
 ## How to consume it
+
+The official `@ticketwave/sdk` is generated from this spec, so most TypeScript users can install it directly rather than generate a client by hand. If you need a client in another language, or a bespoke build, use one of the options below.
 
 ### Swagger Editor / Swagger UI
 
